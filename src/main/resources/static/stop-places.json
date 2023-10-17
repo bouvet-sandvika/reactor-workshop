@@ -1,0 +1,1794 @@
+[
+  {
+    "id": "NSR:StopPlace:1",
+    "created": "2017-06-19T19:12:27.003+02:00",
+    "changed": "2021-04-22T17:52:13.302+02:00",
+    "modification": "NEW",
+    "version": "5",
+    "status_BasicModificationDetailsGroup": "ACTIVE",
+    "publication": "PUBLIC",
+    "keyList": {
+      "keyValue": [
+        {
+          "key": "jbvCode",
+          "value": "DRD"
+        },
+        {
+          "key": "uicCode",
+          "value": "7602103"
+        },
+        {
+          "key": "grailsId",
+          "value": "105"
+        },
+        {
+          "key": "iffCode",
+          "value": "7602103"
+        },
+        {
+          "key": "lisaId",
+          "value": "2103"
+        },
+        {
+          "key": "imported-id",
+          "value": "NSB:StopPlace:007602103,RUT:StopPlace:8179100,FLT:StopPlace:7602103,NSB:StopPlace:07602103"
+        },
+        {
+          "key": "tpsiId",
+          "value": "007602103"
+        },
+        {
+          "key": "IS_PARENT_STOP_PLACE",
+          "value": "false"
+        }
+      ]
+    },
+    "name": {
+      "value": "Drangedal stasjon",
+      "lang": "nor"
+    },
+    "description": {
+      "lang": "nor"
+    },
+    "privateCode": {},
+    "centroid": {
+      "modification": "NEW",
+      "status_BasicModificationDetailsGroup": "ACTIVE",
+      "publication": "PUBLIC",
+      "location": {
+        "longitude": 9.064246,
+        "latitude": 59.096262
+      }
+    },
+    "accessibilityAssessment": {
+      "id": "NSR:AccessibilityAssessment:3",
+      "modification": "NEW",
+      "version": "5",
+      "status_BasicModificationDetailsGroup": "ACTIVE",
+      "publication": "PUBLIC",
+      "mobilityImpairedAccess": "UNKNOWN",
+      "limitations": {
+        "accessibilityLimitation": {
+          "id": "139892",
+          "modification": "NEW",
+          "version": "4",
+          "status_BasicModificationDetailsGroup": "ACTIVE",
+          "publication": "PUBLIC",
+          "wheelchairAccess": "TRUE",
+          "stepFreeAccess": "TRUE",
+          "escalatorFreeAccess": "UNKNOWN",
+          "liftFreeAccess": "UNKNOWN",
+          "audibleSignalsAvailable": "UNKNOWN"
+        }
+      }
+    },
+    "topographicPlaceRef": {
+      "ref": "KVE:TopographicPlace:3815",
+      "created": "2023-10-09T23:51:04.889+02:00",
+      "version": "2"
+    },
+    "parentSiteRef": {
+      "ref": "NSR:StopPlace:58878",
+      "version": "3"
+    },
+    "placeEquipments": {
+      "id": "NSR:PlaceEquipment:58506",
+      "modificationSet": "ALL",
+      "installedEquipmentRefOrInstalledEquipment": [
+        {
+          "type": "SanitaryEquipment",
+          "value": {
+            "id": "99377",
+            "modification": "NEW",
+            "version": "1",
+            "status_BasicModificationDetailsGroup": "ACTIVE",
+            "publication": "PUBLIC",
+            "gender": "BOTH"
+          }
+        },
+        {
+          "type": "WaitingRoomEquipment",
+          "value": {
+            "id": "99378",
+            "modification": "NEW",
+            "version": "1",
+            "status_BasicModificationDetailsGroup": "ACTIVE",
+            "publication": "PUBLIC"
+          }
+        }
+      ]
+    },
+    "transportMode": "RAIL",
+    "tariffZones": {
+      "modificationSet": "ALL",
+      "tariffZoneRef": [
+        {
+          "ref": "VOT:TariffZone:806",
+          "version": "9"
+        },
+        {
+          "ref": "TEL:TariffZone:869",
+          "version": "1"
+        },
+        {
+          "ref": "VOT:FareZone:11",
+          "version": "17"
+        }
+      ]
+    },
+    "stopPlaceType": "RAIL_STATION",
+    "weighting": "INTERCHANGE_ALLOWED",
+    "quays": {
+      "modificationSet": "ALL",
+      "quayRefOrQuay": [
+        {
+          "id": "NSR:Quay:8",
+          "changed": "2020-04-15T15:59:37.53+02:00",
+          "modification": "NEW",
+          "version": "5",
+          "status_BasicModificationDetailsGroup": "ACTIVE",
+          "publication": "PUBLIC",
+          "keyList": {
+            "keyValue": [
+              {
+                "key": "grails-platformId",
+                "value": "6684"
+              },
+              {
+                "key": "uicCode",
+                "value": "7602103"
+              },
+              {
+                "key": "imported-id",
+                "value": "NSB:Quay:0076021032"
+              },
+              {
+                "key": "tpsiId",
+                "value": "760210302"
+              }
+            ]
+          },
+          "description": {
+            "lang": "nor"
+          },
+          "privateCode": {
+            "value": "2"
+          },
+          "centroid": {
+            "modification": "NEW",
+            "status_BasicModificationDetailsGroup": "ACTIVE",
+            "publication": "PUBLIC",
+            "location": {
+              "longitude": 9.064469,
+              "latitude": 59.096179
+            }
+          },
+          "accessibilityAssessment": {
+            "id": "NSR:AccessibilityAssessment:62388",
+            "modification": "NEW",
+            "version": "2",
+            "status_BasicModificationDetailsGroup": "ACTIVE",
+            "publication": "PUBLIC",
+            "mobilityImpairedAccess": "UNKNOWN",
+            "limitations": {
+              "accessibilityLimitation": {
+                "id": "139893",
+                "modification": "NEW",
+                "version": "2",
+                "status_BasicModificationDetailsGroup": "ACTIVE",
+                "publication": "PUBLIC",
+                "wheelchairAccess": "TRUE",
+                "stepFreeAccess": "TRUE",
+                "escalatorFreeAccess": "UNKNOWN",
+                "liftFreeAccess": "UNKNOWN",
+                "audibleSignalsAvailable": "UNKNOWN"
+              }
+            }
+          },
+          "publicCode": "2"
+        },
+        {
+          "id": "NSR:Quay:6",
+          "changed": "2020-04-15T15:59:37.53+02:00",
+          "modification": "NEW",
+          "version": "5",
+          "status_BasicModificationDetailsGroup": "ACTIVE",
+          "publication": "PUBLIC",
+          "keyList": {
+            "keyValue": [
+              {
+                "key": "grails-platformId",
+                "value": "6683"
+              },
+              {
+                "key": "uicCode",
+                "value": "7602103"
+              },
+              {
+                "key": "imported-id",
+                "value": "NSB:Quay:0076021031,NSB:Quay:007602103,NSB:Quay:076021031,FLT:Quay:7602103"
+              },
+              {
+                "key": "tpsiId",
+                "value": "760210301"
+              }
+            ]
+          },
+          "description": {
+            "lang": "nor"
+          },
+          "privateCode": {
+            "value": "1"
+          },
+          "centroid": {
+            "modification": "NEW",
+            "status_BasicModificationDetailsGroup": "ACTIVE",
+            "publication": "PUBLIC",
+            "location": {
+              "longitude": 9.064381,
+              "latitude": 59.09621
+            }
+          },
+          "accessibilityAssessment": {
+            "id": "NSR:AccessibilityAssessment:62389",
+            "modification": "NEW",
+            "version": "2",
+            "status_BasicModificationDetailsGroup": "ACTIVE",
+            "publication": "PUBLIC",
+            "mobilityImpairedAccess": "UNKNOWN",
+            "limitations": {
+              "accessibilityLimitation": {
+                "id": "139894",
+                "modification": "NEW",
+                "version": "2",
+                "status_BasicModificationDetailsGroup": "ACTIVE",
+                "publication": "PUBLIC",
+                "wheelchairAccess": "TRUE",
+                "stepFreeAccess": "TRUE",
+                "escalatorFreeAccess": "UNKNOWN",
+                "liftFreeAccess": "UNKNOWN",
+                "audibleSignalsAvailable": "UNKNOWN"
+              }
+            }
+          },
+          "publicCode": "1"
+        }
+      ]
+    }
+  },
+  {
+    "id": "NSR:StopPlace:10",
+    "validBetween": [
+      {
+        "modification": "NEW",
+        "status_BasicModificationDetailsGroup": "ACTIVE",
+        "publication": "PUBLIC",
+        "fromDate": "2022-02-18T14:14:30.994+01:00",
+        "toDate": "2022-02-18T14:14:30.994+01:00"
+      }
+    ],
+    "created": "2017-06-19T19:12:31.003+02:00",
+    "changed": "2022-02-18T14:14:31.041+01:00",
+    "modification": "NEW",
+    "version": "6",
+    "status_BasicModificationDetailsGroup": "ACTIVE",
+    "publication": "PUBLIC",
+    "keyList": {
+      "keyValue": [
+        {
+          "key": "jbvCode",
+          "value": "PAR"
+        },
+        {
+          "key": "uicCode",
+          "value": "7602233"
+        },
+        {
+          "key": "iffCode",
+          "value": "7602233"
+        },
+        {
+          "key": "lisaId",
+          "value": "2233"
+        },
+        {
+          "key": "imported-id",
+          "value": "NSB:StopPlace:760223330"
+        },
+        {
+          "key": "VERSION_COMMENT",
+          "value": "Skal ikke brukes"
+        },
+        {
+          "key": "TAG-0-idReference",
+          "value": "NSR:StopPlace:10"
+        },
+        {
+          "key": "TAG-0-name",
+          "value": "adm_koordinat"
+        },
+        {
+          "key": "TAG-0-created",
+          "value": "1613039800755"
+        },
+        {
+          "key": "TAG-0-removed",
+          "value": "1638532205484"
+        },
+        {
+          "key": "TAG-1-idReference",
+          "value": "NSR:StopPlace:10"
+        },
+        {
+          "key": "TAG-1-name",
+          "value": "bnr_quality"
+        },
+        {
+          "key": "TAG-1-comment",
+          "value": "slett?"
+        },
+        {
+          "key": "TAG-1-created",
+          "value": "1640857140464"
+        },
+        {
+          "key": "IS_PARENT_STOP_PLACE",
+          "value": "false"
+        }
+      ]
+    },
+    "name": {
+      "value": "Paradis stasjon",
+      "lang": "nor"
+    },
+    "description": {
+      "lang": "no"
+    },
+    "privateCode": {},
+    "centroid": {
+      "modification": "NEW",
+      "status_BasicModificationDetailsGroup": "ACTIVE",
+      "publication": "PUBLIC",
+      "location": {
+        "longitude": 5.741494,
+        "latitude": 58.956594
+      }
+    },
+    "accessibilityAssessment": {
+      "id": "NSR:AccessibilityAssessment:10",
+      "modification": "NEW",
+      "version": "6",
+      "status_BasicModificationDetailsGroup": "ACTIVE",
+      "publication": "PUBLIC",
+      "mobilityImpairedAccess": "UNKNOWN",
+      "limitations": {
+        "accessibilityLimitation": {
+          "id": "165789",
+          "modification": "NEW",
+          "version": "1",
+          "status_BasicModificationDetailsGroup": "ACTIVE",
+          "publication": "PUBLIC",
+          "wheelchairAccess": "TRUE",
+          "stepFreeAccess": "TRUE",
+          "escalatorFreeAccess": "UNKNOWN",
+          "liftFreeAccess": "UNKNOWN",
+          "audibleSignalsAvailable": "UNKNOWN"
+        }
+      }
+    },
+    "topographicPlaceRef": {
+      "ref": "KVE:TopographicPlace:1103",
+      "created": "2023-10-09T23:51:05.168+02:00",
+      "version": "11"
+    },
+    "transportMode": "BUS",
+    "busSubmode": "RAIL_REPLACEMENT_BUS",
+    "tariffZones": {
+      "modificationSet": "ALL",
+      "tariffZoneRef": [
+        {
+          "ref": "KOL:TariffZone:150",
+          "version": "2"
+        },
+        {
+          "ref": "AKT:FareZone:31",
+          "version": "3"
+        },
+        {
+          "ref": "KOL:FareZone:4",
+          "version": "3"
+        }
+      ]
+    },
+    "stopPlaceType": "ONSTREET_BUS",
+    "weighting": "INTERCHANGE_ALLOWED",
+    "quays": {
+      "modificationSet": "ALL",
+      "quayRefOrQuay": [
+        {
+          "id": "NSR:Quay:17",
+          "changed": "2021-02-11T11:36:27.55+01:00",
+          "modification": "NEW",
+          "version": "6",
+          "status_BasicModificationDetailsGroup": "ACTIVE",
+          "publication": "PUBLIC",
+          "keyList": {
+            "keyValue": [
+              {
+                "key": "uicCode",
+                "value": "7602233"
+              },
+              {
+                "key": "imported-id",
+                "value": "NSB:Quay:760223330"
+              }
+            ]
+          },
+          "privateCode": {},
+          "centroid": {
+            "modification": "NEW",
+            "status_BasicModificationDetailsGroup": "ACTIVE",
+            "publication": "PUBLIC",
+            "location": {
+              "longitude": 5.741569,
+              "latitude": 58.956607
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "NSR:StopPlace:100",
+    "validBetween": [
+      {
+        "modification": "NEW",
+        "status_BasicModificationDetailsGroup": "ACTIVE",
+        "publication": "PUBLIC",
+        "fromDate": "2019-10-25T08:44:26.027+02:00",
+        "toDate": "2019-10-25T08:44:26.027+02:00"
+      }
+    ],
+    "created": "2017-06-19T19:12:36.685+02:00",
+    "changed": "2019-10-25T08:44:26.07+02:00",
+    "modification": "NEW",
+    "version": "3",
+    "status_BasicModificationDetailsGroup": "ACTIVE",
+    "publication": "PUBLIC",
+    "keyList": {
+      "keyValue": [
+        {
+          "key": "jbvCode",
+          "value": "EIK"
+        },
+        {
+          "key": "uicCode",
+          "value": "7601521"
+        },
+        {
+          "key": "iffCode",
+          "value": "7601521"
+        },
+        {
+          "key": "lisaId",
+          "value": "1521"
+        },
+        {
+          "key": "imported-id",
+          "value": "NSB:StopPlace:760152130"
+        },
+        {
+          "key": "VERSION_COMMENT",
+          "value": "Nedlagt"
+        },
+        {
+          "key": "IS_PARENT_STOP_PLACE",
+          "value": "false"
+        }
+      ]
+    },
+    "name": {
+      "value": "Eikenes",
+      "lang": "nor"
+    },
+    "description": {
+      "lang": "nor"
+    },
+    "centroid": {
+      "modification": "NEW",
+      "status_BasicModificationDetailsGroup": "ACTIVE",
+      "publication": "PUBLIC",
+      "location": {
+        "longitude": 9.895898,
+        "latitude": 59.14673
+      }
+    },
+    "accessibilityAssessment": {
+      "id": "NSR:AccessibilityAssessment:100",
+      "modification": "NEW",
+      "version": "3",
+      "status_BasicModificationDetailsGroup": "ACTIVE",
+      "publication": "PUBLIC",
+      "mobilityImpairedAccess": "UNKNOWN",
+      "limitations": {
+        "accessibilityLimitation": {
+          "id": "118387",
+          "modification": "NEW",
+          "version": "1",
+          "status_BasicModificationDetailsGroup": "ACTIVE",
+          "publication": "PUBLIC",
+          "wheelchairAccess": "FALSE",
+          "stepFreeAccess": "FALSE",
+          "escalatorFreeAccess": "UNKNOWN",
+          "liftFreeAccess": "UNKNOWN",
+          "audibleSignalsAvailable": "UNKNOWN"
+        }
+      }
+    },
+    "topographicPlaceRef": {
+      "ref": "KVE:TopographicPlace:0712",
+      "created": "2023-10-09T23:51:05.172+02:00",
+      "version": "4"
+    },
+    "transportMode": "BUS",
+    "busSubmode": "RAIL_REPLACEMENT_BUS",
+    "stopPlaceType": "ONSTREET_BUS",
+    "weighting": "INTERCHANGE_ALLOWED",
+    "quays": {
+      "modificationSet": "ALL",
+      "quayRefOrQuay": [
+        {
+          "id": "NSR:Quay:156",
+          "changed": "2017-06-30T10:20:11.52+02:00",
+          "modification": "NEW",
+          "version": "3",
+          "status_BasicModificationDetailsGroup": "ACTIVE",
+          "publication": "PUBLIC",
+          "keyList": {
+            "keyValue": [
+              {
+                "key": "uicCode",
+                "value": "7601521"
+              },
+              {
+                "key": "imported-id",
+                "value": "NSB:Quay:760152130"
+              }
+            ]
+          },
+          "centroid": {
+            "modification": "NEW",
+            "status_BasicModificationDetailsGroup": "ACTIVE",
+            "publication": "PUBLIC",
+            "location": {
+              "longitude": 9.895613,
+              "latitude": 59.146826
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "NSR:StopPlace:1000",
+    "validBetween": [
+      {
+        "modification": "NEW",
+        "status_BasicModificationDetailsGroup": "ACTIVE",
+        "publication": "PUBLIC",
+        "fromDate": "2017-06-19T19:14:34.1+02:00"
+      }
+    ],
+    "created": "2017-06-19T19:14:34.1+02:00",
+    "changed": "2021-05-03T08:27:23.155+02:00",
+    "modification": "NEW",
+    "version": "1",
+    "status_BasicModificationDetailsGroup": "ACTIVE",
+    "publication": "PUBLIC",
+    "keyList": {
+      "keyValue": [
+        {
+          "key": "imported-id",
+          "value": "OST:StopPlace:01223282,OST:StopPlace:1223282"
+        },
+        {
+          "key": "IS_PARENT_STOP_PLACE",
+          "value": "false"
+        }
+      ]
+    },
+    "name": {
+      "value": "Sentvedt",
+      "lang": "nor"
+    },
+    "centroid": {
+      "modification": "NEW",
+      "status_BasicModificationDetailsGroup": "ACTIVE",
+      "publication": "PUBLIC",
+      "location": {
+        "longitude": 11.379885,
+        "latitude": 59.66847
+      }
+    },
+    "accessibilityAssessment": {
+      "id": "NSR:AccessibilityAssessment:1000",
+      "modification": "NEW",
+      "version": "1",
+      "status_BasicModificationDetailsGroup": "ACTIVE",
+      "publication": "PUBLIC",
+      "mobilityImpairedAccess": "UNKNOWN",
+      "limitations": {
+        "accessibilityLimitation": {
+          "id": "2470",
+          "modification": "NEW",
+          "version": "1",
+          "status_BasicModificationDetailsGroup": "ACTIVE",
+          "publication": "PUBLIC",
+          "wheelchairAccess": "UNKNOWN",
+          "stepFreeAccess": "UNKNOWN"
+        }
+      }
+    },
+    "topographicPlaceRef": {
+      "ref": "KVE:TopographicPlace:3014",
+      "created": "2023-10-09T23:51:05.173+02:00",
+      "version": "2"
+    },
+    "transportMode": "BUS",
+    "tariffZones": {
+      "modificationSet": "ALL",
+      "tariffZoneRef": [
+        {
+          "ref": "RUT:FareZone:11",
+          "version": "6"
+        },
+        {
+          "ref": "OST:FareZone:8",
+          "version": "7"
+        },
+        {
+          "ref": "OST:TariffZone:274",
+          "version": "1"
+        },
+        {
+          "ref": "RUT:TariffZone:4SØ",
+          "version": "8"
+        }
+      ]
+    },
+    "stopPlaceType": "ONSTREET_BUS",
+    "weighting": "INTERCHANGE_ALLOWED",
+    "quays": {
+      "modificationSet": "ALL",
+      "quayRefOrQuay": [
+        {
+          "id": "NSR:Quay:1612",
+          "modification": "NEW",
+          "version": "1",
+          "status_BasicModificationDetailsGroup": "ACTIVE",
+          "publication": "PUBLIC",
+          "keyList": {
+            "keyValue": [
+              {
+                "key": "imported-id",
+                "value": "OST:Quay:122328201,OST:Quay:0122328201"
+              }
+            ]
+          },
+          "privateCode": {
+            "value": "01",
+            "type": "StopPoint"
+          },
+          "centroid": {
+            "modification": "NEW",
+            "status_BasicModificationDetailsGroup": "ACTIVE",
+            "publication": "PUBLIC",
+            "location": {
+              "longitude": 11.379885,
+              "latitude": 59.66847
+            }
+          },
+          "compassBearing": 93
+        }
+      ]
+    }
+  },
+  {
+    "id": "NSR:StopPlace:10000",
+    "validBetween": [
+      {
+        "modification": "NEW",
+        "status_BasicModificationDetailsGroup": "ACTIVE",
+        "publication": "PUBLIC",
+        "fromDate": "2019-10-29T09:52:40+01:00"
+      }
+    ],
+    "created": "2017-06-19T19:24:52.897+02:00",
+    "changed": "2021-05-03T08:34:53.685+02:00",
+    "modification": "NEW",
+    "version": "8",
+    "status_BasicModificationDetailsGroup": "ACTIVE",
+    "publication": "PUBLIC",
+    "keyList": {
+      "keyValue": [
+        {
+          "key": "lastUpdated",
+          "value": "2013-10-07"
+        },
+        {
+          "key": "imported-id",
+          "value": "OPP:StopPlace:4121624,HED:StopPlace:04121624,HED:StopPlace:4121624"
+        },
+        {
+          "key": "VERSION_COMMENT"
+        },
+        {
+          "key": "IS_PARENT_STOP_PLACE",
+          "value": "false"
+        }
+      ]
+    },
+    "name": {
+      "value": "Grøtholm",
+      "lang": "nor"
+    },
+    "description": {
+      "lang": "no"
+    },
+    "privateCode": {},
+    "centroid": {
+      "modification": "NEW",
+      "status_BasicModificationDetailsGroup": "ACTIVE",
+      "publication": "PUBLIC",
+      "location": {
+        "longitude": 11.082137,
+        "latitude": 60.868338
+      }
+    },
+    "accessibilityAssessment": {
+      "id": "NSR:AccessibilityAssessment:10000",
+      "modification": "NEW",
+      "version": "8",
+      "status_BasicModificationDetailsGroup": "ACTIVE",
+      "publication": "PUBLIC",
+      "mobilityImpairedAccess": "UNKNOWN",
+      "limitations": {
+        "accessibilityLimitation": {
+          "id": "118608",
+          "modification": "NEW",
+          "version": "1",
+          "status_BasicModificationDetailsGroup": "ACTIVE",
+          "publication": "PUBLIC",
+          "wheelchairAccess": "UNKNOWN",
+          "stepFreeAccess": "UNKNOWN",
+          "escalatorFreeAccess": "UNKNOWN",
+          "liftFreeAccess": "UNKNOWN",
+          "audibleSignalsAvailable": "UNKNOWN"
+        }
+      }
+    },
+    "topographicPlaceRef": {
+      "ref": "KVE:TopographicPlace:3411",
+      "created": "2023-10-09T23:51:05.442+02:00",
+      "version": "2"
+    },
+    "transportMode": "BUS",
+    "tariffZones": {
+      "modificationSet": "ALL",
+      "tariffZoneRef": [
+        {
+          "ref": "INN:TariffZone:474",
+          "version": "9"
+        },
+        {
+          "ref": "INN:FareZone:159",
+          "version": "14"
+        }
+      ]
+    },
+    "stopPlaceType": "ONSTREET_BUS",
+    "weighting": "INTERCHANGE_ALLOWED",
+    "quays": {
+      "modificationSet": "ALL",
+      "quayRefOrQuay": [
+        {
+          "id": "NSR:Quay:17061",
+          "changed": "2019-10-29T09:52:41.972+01:00",
+          "modification": "NEW",
+          "version": "8",
+          "status_BasicModificationDetailsGroup": "ACTIVE",
+          "publication": "PUBLIC",
+          "keyList": {
+            "keyValue": [
+              {
+                "key": "hpltype",
+                "value": "9766"
+              },
+              {
+                "key": "imported-id",
+                "value": "HED:Quay:0412162401,HED:Quay:412162401,OPP:Quay:0412162401"
+              },
+              {
+                "key": "retn_nett",
+                "value": "9771"
+              }
+            ]
+          },
+          "description": {
+            "value": "mot Tåsåsen",
+            "lang": "nor"
+          },
+          "privateCode": {
+            "value": "1"
+          },
+          "centroid": {
+            "modification": "NEW",
+            "status_BasicModificationDetailsGroup": "ACTIVE",
+            "publication": "PUBLIC",
+            "location": {
+              "longitude": 11.082222,
+              "latitude": 60.868365
+            }
+          }
+        },
+        {
+          "id": "NSR:Quay:17062",
+          "changed": "2019-10-29T09:52:41.972+01:00",
+          "modification": "NEW",
+          "version": "8",
+          "status_BasicModificationDetailsGroup": "ACTIVE",
+          "publication": "PUBLIC",
+          "keyList": {
+            "keyValue": [
+              {
+                "key": "hpltype",
+                "value": "9766"
+              },
+              {
+                "key": "imported-id",
+                "value": "HED:Quay:0412162402,OPP:Quay:412162402,OPP:Quay:0412162402"
+              },
+              {
+                "key": "retn_nett",
+                "value": "9771"
+              }
+            ]
+          },
+          "description": {
+            "value": "mot Gålåskrysset",
+            "lang": "nor"
+          },
+          "privateCode": {
+            "value": "2"
+          },
+          "centroid": {
+            "modification": "NEW",
+            "status_BasicModificationDetailsGroup": "ACTIVE",
+            "publication": "PUBLIC",
+            "location": {
+              "longitude": 11.082094,
+              "latitude": 60.868343
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "NSR:StopPlace:10001",
+    "validBetween": [
+      {
+        "modification": "NEW",
+        "status_BasicModificationDetailsGroup": "ACTIVE",
+        "publication": "PUBLIC",
+        "fromDate": "2022-11-24T12:19:10.777+01:00"
+      }
+    ],
+    "created": "2017-06-19T19:24:52.851+02:00",
+    "changed": "2022-11-24T12:19:10.779+01:00",
+    "modification": "NEW",
+    "version": "3",
+    "status_BasicModificationDetailsGroup": "ACTIVE",
+    "publication": "PUBLIC",
+    "keyList": {
+      "keyValue": [
+        {
+          "key": "lastUpdated",
+          "value": "2013-10-07"
+        },
+        {
+          "key": "imported-id",
+          "value": "OPP:StopPlace:4263270,HED:StopPlace:04263270,HED:StopPlace:4263270"
+        },
+        {
+          "key": "VERSION_COMMENT",
+          "value": "justert"
+        },
+        {
+          "key": "IS_PARENT_STOP_PLACE",
+          "value": "false"
+        }
+      ]
+    },
+    "name": {
+      "value": "Venstad vegkryss",
+      "lang": "nor"
+    },
+    "privateCode": {},
+    "centroid": {
+      "modification": "NEW",
+      "status_BasicModificationDetailsGroup": "ACTIVE",
+      "publication": "PUBLIC",
+      "location": {
+        "longitude": 11.810896,
+        "latitude": 60.689267
+      }
+    },
+    "accessibilityAssessment": {
+      "id": "NSR:AccessibilityAssessment:10001",
+      "modification": "NEW",
+      "version": "3",
+      "status_BasicModificationDetailsGroup": "ACTIVE",
+      "publication": "PUBLIC",
+      "mobilityImpairedAccess": "UNKNOWN",
+      "limitations": {
+        "accessibilityLimitation": {
+          "id": "175900",
+          "modification": "NEW",
+          "version": "1",
+          "status_BasicModificationDetailsGroup": "ACTIVE",
+          "publication": "PUBLIC",
+          "wheelchairAccess": "UNKNOWN",
+          "stepFreeAccess": "UNKNOWN",
+          "escalatorFreeAccess": "UNKNOWN",
+          "liftFreeAccess": "UNKNOWN",
+          "audibleSignalsAvailable": "UNKNOWN"
+        }
+      }
+    },
+    "topographicPlaceRef": {
+      "ref": "KVE:TopographicPlace:3419",
+      "created": "2023-10-09T23:51:05.542+02:00",
+      "version": "2"
+    },
+    "transportMode": "BUS",
+    "tariffZones": {
+      "modificationSet": "ALL",
+      "tariffZoneRef": [
+        {
+          "ref": "INN:FareZone:96",
+          "version": "14"
+        },
+        {
+          "ref": "INN:TariffZone:491",
+          "version": "9"
+        }
+      ]
+    },
+    "stopPlaceType": "ONSTREET_BUS",
+    "weighting": "INTERCHANGE_ALLOWED",
+    "quays": {
+      "modificationSet": "ALL",
+      "quayRefOrQuay": [
+        {
+          "id": "NSR:Quay:105819",
+          "changed": "2022-11-24T12:19:10.775+01:00",
+          "modification": "NEW",
+          "version": "2",
+          "status_BasicModificationDetailsGroup": "ACTIVE",
+          "publication": "PUBLIC",
+          "keyList": {
+            "keyValue": [
+              {
+                "key": "imported-id"
+              }
+            ]
+          },
+          "privateCode": {
+            "value": "2"
+          },
+          "centroid": {
+            "modification": "NEW",
+            "status_BasicModificationDetailsGroup": "ACTIVE",
+            "publication": "PUBLIC",
+            "location": {
+              "longitude": 11.810721,
+              "latitude": 60.689656
+            }
+          },
+          "compassBearing": 350
+        },
+        {
+          "id": "NSR:Quay:17063",
+          "changed": "2022-11-24T12:19:10.776+01:00",
+          "modification": "NEW",
+          "version": "3",
+          "status_BasicModificationDetailsGroup": "ACTIVE",
+          "publication": "PUBLIC",
+          "keyList": {
+            "keyValue": [
+              {
+                "key": "hpltype",
+                "value": "9766"
+              },
+              {
+                "key": "imported-id",
+                "value": "HED:Quay:0426327001,HED:Quay:426327001,OPP:Quay:426327001"
+              },
+              {
+                "key": "retn_nett",
+                "value": "9771"
+              }
+            ]
+          },
+          "privateCode": {
+            "value": "1"
+          },
+          "centroid": {
+            "modification": "NEW",
+            "status_BasicModificationDetailsGroup": "ACTIVE",
+            "publication": "PUBLIC",
+            "location": {
+              "longitude": 11.81107,
+              "latitude": 60.688879
+            }
+          },
+          "compassBearing": 175
+        }
+      ]
+    }
+  },
+  {
+    "id": "NSR:StopPlace:10002",
+    "validBetween": [
+      {
+        "modification": "NEW",
+        "status_BasicModificationDetailsGroup": "ACTIVE",
+        "publication": "PUBLIC",
+        "fromDate": "2019-10-29T09:45:41+01:00"
+      }
+    ],
+    "created": "2017-06-19T19:24:52.942+02:00",
+    "changed": "2021-05-03T08:34:54.031+02:00",
+    "modification": "NEW",
+    "version": "3",
+    "status_BasicModificationDetailsGroup": "ACTIVE",
+    "publication": "PUBLIC",
+    "keyList": {
+      "keyValue": [
+        {
+          "key": "lastUpdated",
+          "value": "2017-05-29"
+        },
+        {
+          "key": "imported-id",
+          "value": "HED:StopPlace:04121626,OPP:StopPlace:04121626"
+        },
+        {
+          "key": "VERSION_COMMENT"
+        },
+        {
+          "key": "IS_PARENT_STOP_PLACE",
+          "value": "false"
+        }
+      ]
+    },
+    "name": {
+      "value": "Husum",
+      "lang": "nor"
+    },
+    "description": {
+      "lang": "no"
+    },
+    "privateCode": {},
+    "centroid": {
+      "modification": "NEW",
+      "status_BasicModificationDetailsGroup": "ACTIVE",
+      "publication": "PUBLIC",
+      "location": {
+        "longitude": 11.084005,
+        "latitude": 60.872057
+      }
+    },
+    "accessibilityAssessment": {
+      "id": "NSR:AccessibilityAssessment:10002",
+      "modification": "NEW",
+      "version": "3",
+      "status_BasicModificationDetailsGroup": "ACTIVE",
+      "publication": "PUBLIC",
+      "mobilityImpairedAccess": "UNKNOWN",
+      "limitations": {
+        "accessibilityLimitation": {
+          "id": "118598",
+          "modification": "NEW",
+          "version": "1",
+          "status_BasicModificationDetailsGroup": "ACTIVE",
+          "publication": "PUBLIC",
+          "wheelchairAccess": "UNKNOWN",
+          "stepFreeAccess": "UNKNOWN",
+          "escalatorFreeAccess": "UNKNOWN",
+          "liftFreeAccess": "UNKNOWN",
+          "audibleSignalsAvailable": "UNKNOWN"
+        }
+      }
+    },
+    "topographicPlaceRef": {
+      "ref": "KVE:TopographicPlace:3411",
+      "created": "2023-10-09T23:51:05.824+02:00",
+      "version": "2"
+    },
+    "transportMode": "BUS",
+    "tariffZones": {
+      "modificationSet": "ALL",
+      "tariffZoneRef": [
+        {
+          "ref": "INN:TariffZone:474",
+          "version": "9"
+        },
+        {
+          "ref": "INN:FareZone:159",
+          "version": "14"
+        }
+      ]
+    },
+    "stopPlaceType": "ONSTREET_BUS",
+    "weighting": "INTERCHANGE_ALLOWED",
+    "quays": {
+      "modificationSet": "ALL",
+      "quayRefOrQuay": [
+        {
+          "id": "NSR:Quay:103369",
+          "changed": "2019-10-29T09:45:43.217+01:00",
+          "modification": "NEW",
+          "version": "2",
+          "status_BasicModificationDetailsGroup": "ACTIVE",
+          "publication": "PUBLIC",
+          "keyList": {
+            "keyValue": [
+              {
+                "key": "imported-id",
+                "value": "HED:Quay:0412162602,OPP:Quay:0412162602"
+              }
+            ]
+          },
+          "description": {
+            "value": "mot Gålåskrysset",
+            "lang": "nor"
+          },
+          "privateCode": {
+            "value": "2"
+          },
+          "centroid": {
+            "modification": "NEW",
+            "status_BasicModificationDetailsGroup": "ACTIVE",
+            "publication": "PUBLIC",
+            "location": {
+              "longitude": 11.083746,
+              "latitude": 60.872008
+            }
+          }
+        },
+        {
+          "id": "NSR:Quay:17064",
+          "changed": "2019-10-29T09:45:43.217+01:00",
+          "modification": "NEW",
+          "version": "3",
+          "status_BasicModificationDetailsGroup": "ACTIVE",
+          "publication": "PUBLIC",
+          "keyList": {
+            "keyValue": [
+              {
+                "key": "hpltype",
+                "value": "9766"
+              },
+              {
+                "key": "imported-id",
+                "value": "HED:Quay:0412162601,OPP:Quay:0412162601"
+              },
+              {
+                "key": "retn_nett",
+                "value": "9771"
+              }
+            ]
+          },
+          "description": {
+            "value": "mot Tåsåsen",
+            "lang": "nor"
+          },
+          "privateCode": {
+            "value": "1"
+          },
+          "centroid": {
+            "modification": "NEW",
+            "status_BasicModificationDetailsGroup": "ACTIVE",
+            "publication": "PUBLIC",
+            "location": {
+              "longitude": 11.084264,
+              "latitude": 60.872106
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "NSR:StopPlace:10003",
+    "validBetween": [
+      {
+        "modification": "NEW",
+        "status_BasicModificationDetailsGroup": "ACTIVE",
+        "publication": "PUBLIC",
+        "fromDate": "2018-12-17T10:25:27+01:00"
+      }
+    ],
+    "created": "2017-06-19T19:24:52.985+02:00",
+    "changed": "2021-05-03T08:34:53.913+02:00",
+    "modification": "NEW",
+    "version": "3",
+    "status_BasicModificationDetailsGroup": "ACTIVE",
+    "publication": "PUBLIC",
+    "keyList": {
+      "keyValue": [
+        {
+          "key": "lastUpdated",
+          "value": "2013-10-07"
+        },
+        {
+          "key": "imported-id",
+          "value": "HED:StopPlace:04023982,OPP:StopPlace:04023982"
+        },
+        {
+          "key": "VERSION_COMMENT",
+          "value": "imported-id"
+        },
+        {
+          "key": "IS_PARENT_STOP_PLACE",
+          "value": "false"
+        }
+      ]
+    },
+    "name": {
+      "value": "Langåsen",
+      "lang": "nor"
+    },
+    "description": {
+      "lang": "no"
+    },
+    "centroid": {
+      "modification": "NEW",
+      "status_BasicModificationDetailsGroup": "ACTIVE",
+      "publication": "PUBLIC",
+      "location": {
+        "longitude": 12.319945,
+        "latitude": 60.295768
+      }
+    },
+    "accessibilityAssessment": {
+      "id": "NSR:AccessibilityAssessment:10003",
+      "modification": "NEW",
+      "version": "3",
+      "status_BasicModificationDetailsGroup": "ACTIVE",
+      "publication": "PUBLIC",
+      "mobilityImpairedAccess": "UNKNOWN",
+      "limitations": {
+        "accessibilityLimitation": {
+          "id": "105464",
+          "modification": "NEW",
+          "version": "1",
+          "status_BasicModificationDetailsGroup": "ACTIVE",
+          "publication": "PUBLIC",
+          "wheelchairAccess": "UNKNOWN",
+          "stepFreeAccess": "UNKNOWN",
+          "escalatorFreeAccess": "UNKNOWN",
+          "liftFreeAccess": "UNKNOWN",
+          "audibleSignalsAvailable": "UNKNOWN"
+        }
+      }
+    },
+    "topographicPlaceRef": {
+      "ref": "KVE:TopographicPlace:3401",
+      "created": "2023-10-09T23:51:05.976+02:00",
+      "version": "2"
+    },
+    "transportMode": "BUS",
+    "tariffZones": {
+      "modificationSet": "ALL",
+      "tariffZoneRef": [
+        {
+          "ref": "INN:FareZone:142",
+          "version": "14"
+        },
+        {
+          "ref": "INN:TariffZone:486",
+          "version": "9"
+        }
+      ]
+    },
+    "stopPlaceType": "ONSTREET_BUS",
+    "weighting": "INTERCHANGE_ALLOWED",
+    "quays": {
+      "modificationSet": "ALL",
+      "quayRefOrQuay": [
+        {
+          "id": "NSR:Quay:101805",
+          "changed": "2018-12-17T10:25:30.77+01:00",
+          "modification": "NEW",
+          "version": "2",
+          "status_BasicModificationDetailsGroup": "ACTIVE",
+          "publication": "PUBLIC",
+          "keyList": {
+            "keyValue": [
+              {
+                "key": "imported-id",
+                "value": "OPP:Quay:0402398201,HED:Quay:0402398201"
+              }
+            ]
+          },
+          "description": {
+            "value": "mot Øyermoen",
+            "lang": "nor"
+          },
+          "privateCode": {
+            "value": "1"
+          },
+          "centroid": {
+            "modification": "NEW",
+            "status_BasicModificationDetailsGroup": "ACTIVE",
+            "publication": "PUBLIC",
+            "location": {
+              "longitude": 12.319981,
+              "latitude": 60.295741
+            }
+          }
+        },
+        {
+          "id": "NSR:Quay:17065",
+          "changed": "2018-12-17T10:25:30.769+01:00",
+          "modification": "NEW",
+          "version": "3",
+          "status_BasicModificationDetailsGroup": "ACTIVE",
+          "publication": "PUBLIC",
+          "keyList": {
+            "keyValue": [
+              {
+                "key": "hpltype",
+                "value": "9766"
+              },
+              {
+                "key": "imported-id",
+                "value": "OPP:Quay:0402398202,HED:Quay:0402398202"
+              },
+              {
+                "key": "retn_nett",
+                "value": "9771"
+              }
+            ]
+          },
+          "description": {
+            "value": "mot Berg",
+            "lang": "nor"
+          },
+          "privateCode": {
+            "value": "2"
+          },
+          "centroid": {
+            "modification": "NEW",
+            "status_BasicModificationDetailsGroup": "ACTIVE",
+            "publication": "PUBLIC",
+            "location": {
+              "longitude": 12.319909,
+              "latitude": 60.295795
+            }
+          },
+          "placeEquipments": {
+            "id": "NSR:PlaceEquipment:48976",
+            "modificationSet": "ALL",
+            "installedEquipmentRefOrInstalledEquipment": [
+              {
+                "type": "GeneralSign",
+                "value": {
+                  "id": "77403",
+                  "modification": "NEW",
+                  "version": "1",
+                  "status_BasicModificationDetailsGroup": "ACTIVE",
+                  "publication": "PUBLIC",
+                  "privateCode": {
+                    "value": "512"
+                  },
+                  "signContentType": "TRANSPORT_MODE"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "NSR:StopPlace:10004",
+    "validBetween": [
+      {
+        "modification": "NEW",
+        "status_BasicModificationDetailsGroup": "ACTIVE",
+        "publication": "PUBLIC",
+        "fromDate": "2019-10-29T09:47:10+01:00"
+      }
+    ],
+    "created": "2017-06-19T19:24:53.014+02:00",
+    "changed": "2021-05-03T08:34:53.794+02:00",
+    "modification": "NEW",
+    "version": "2",
+    "status_BasicModificationDetailsGroup": "ACTIVE",
+    "publication": "PUBLIC",
+    "keyList": {
+      "keyValue": [
+        {
+          "key": "lastUpdated",
+          "value": "2017-06-06"
+        },
+        {
+          "key": "imported-id",
+          "value": "OPP:StopPlace:04121628,HED:StopPlace:04121628"
+        },
+        {
+          "key": "VERSION_COMMENT",
+          "value": "lagt til quay, justert"
+        },
+        {
+          "key": "IS_PARENT_STOP_PLACE",
+          "value": "false"
+        }
+      ]
+    },
+    "name": {
+      "value": "Skårsveen",
+      "lang": "nor"
+    },
+    "description": {
+      "lang": "no"
+    },
+    "privateCode": {},
+    "centroid": {
+      "modification": "NEW",
+      "status_BasicModificationDetailsGroup": "ACTIVE",
+      "publication": "PUBLIC",
+      "location": {
+        "longitude": 11.08266,
+        "latitude": 60.877471
+      }
+    },
+    "accessibilityAssessment": {
+      "id": "NSR:AccessibilityAssessment:10004",
+      "modification": "NEW",
+      "version": "2",
+      "status_BasicModificationDetailsGroup": "ACTIVE",
+      "publication": "PUBLIC",
+      "mobilityImpairedAccess": "UNKNOWN",
+      "limitations": {
+        "accessibilityLimitation": {
+          "id": "118599",
+          "modification": "NEW",
+          "version": "1",
+          "status_BasicModificationDetailsGroup": "ACTIVE",
+          "publication": "PUBLIC",
+          "wheelchairAccess": "UNKNOWN",
+          "stepFreeAccess": "UNKNOWN",
+          "escalatorFreeAccess": "UNKNOWN",
+          "liftFreeAccess": "UNKNOWN",
+          "audibleSignalsAvailable": "UNKNOWN"
+        }
+      }
+    },
+    "topographicPlaceRef": {
+      "ref": "KVE:TopographicPlace:3411",
+      "created": "2023-10-09T23:51:05.994+02:00",
+      "version": "2"
+    },
+    "transportMode": "BUS",
+    "tariffZones": {
+      "modificationSet": "ALL",
+      "tariffZoneRef": [
+        {
+          "ref": "INN:TariffZone:474",
+          "version": "9"
+        },
+        {
+          "ref": "INN:FareZone:159",
+          "version": "14"
+        }
+      ]
+    },
+    "stopPlaceType": "ONSTREET_BUS",
+    "weighting": "INTERCHANGE_ALLOWED",
+    "quays": {
+      "modificationSet": "ALL",
+      "quayRefOrQuay": [
+        {
+          "id": "NSR:Quay:103374",
+          "changed": "2019-10-29T09:47:18.096+01:00",
+          "modification": "NEW",
+          "version": "1",
+          "status_BasicModificationDetailsGroup": "ACTIVE",
+          "publication": "PUBLIC",
+          "keyList": {
+            "keyValue": [
+              {
+                "key": "imported-id",
+                "value": "HED:Quay:0412162802,OPP:Quay:0412162802"
+              }
+            ]
+          },
+          "description": {
+            "value": "mot Gålåskrysset",
+            "lang": "nor"
+          },
+          "privateCode": {
+            "value": "2"
+          },
+          "centroid": {
+            "modification": "NEW",
+            "status_BasicModificationDetailsGroup": "ACTIVE",
+            "publication": "PUBLIC",
+            "location": {
+              "longitude": 11.082614,
+              "latitude": 60.877431
+            }
+          }
+        },
+        {
+          "id": "NSR:Quay:17066",
+          "changed": "2019-10-29T09:47:18.096+01:00",
+          "modification": "NEW",
+          "version": "2",
+          "status_BasicModificationDetailsGroup": "ACTIVE",
+          "publication": "PUBLIC",
+          "keyList": {
+            "keyValue": [
+              {
+                "key": "hpltype",
+                "value": "9766"
+              },
+              {
+                "key": "imported-id",
+                "value": "HED:Quay:0412162801,OPP:Quay:0412162801"
+              },
+              {
+                "key": "retn_nett",
+                "value": "9771"
+              }
+            ]
+          },
+          "description": {
+            "value": "mot Tåsåsen",
+            "lang": "nor"
+          },
+          "privateCode": {
+            "value": "1"
+          },
+          "centroid": {
+            "modification": "NEW",
+            "status_BasicModificationDetailsGroup": "ACTIVE",
+            "publication": "PUBLIC",
+            "location": {
+              "longitude": 11.082705,
+              "latitude": 60.877512
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "NSR:StopPlace:10005",
+    "validBetween": [
+      {
+        "modification": "NEW",
+        "status_BasicModificationDetailsGroup": "ACTIVE",
+        "publication": "PUBLIC",
+        "fromDate": "2018-10-25T10:01:30+02:00"
+      }
+    ],
+    "created": "2017-06-19T19:24:53.032+02:00",
+    "changed": "2021-05-03T08:34:54.602+02:00",
+    "modification": "NEW",
+    "version": "2",
+    "status_BasicModificationDetailsGroup": "ACTIVE",
+    "publication": "PUBLIC",
+    "keyList": {
+      "keyValue": [
+        {
+          "key": "lastUpdated",
+          "value": "2017-05-15"
+        },
+        {
+          "key": "imported-id",
+          "value": "HED:StopPlace:4023984,OPP:StopPlace:4023984,HED:StopPlace:04023984"
+        },
+        {
+          "key": "VERSION_COMMENT",
+          "value": "lagt til quay, justert"
+        },
+        {
+          "key": "IS_PARENT_STOP_PLACE",
+          "value": "false"
+        }
+      ]
+    },
+    "name": {
+      "value": "Bergsland",
+      "lang": "nor"
+    },
+    "description": {
+      "lang": "no"
+    },
+    "centroid": {
+      "modification": "NEW",
+      "status_BasicModificationDetailsGroup": "ACTIVE",
+      "publication": "PUBLIC",
+      "location": {
+        "longitude": 12.357264,
+        "latitude": 60.285182
+      }
+    },
+    "accessibilityAssessment": {
+      "id": "NSR:AccessibilityAssessment:10005",
+      "modification": "NEW",
+      "version": "2",
+      "status_BasicModificationDetailsGroup": "ACTIVE",
+      "publication": "PUBLIC",
+      "mobilityImpairedAccess": "UNKNOWN",
+      "limitations": {
+        "accessibilityLimitation": {
+          "id": "101377",
+          "modification": "NEW",
+          "version": "1",
+          "status_BasicModificationDetailsGroup": "ACTIVE",
+          "publication": "PUBLIC",
+          "wheelchairAccess": "UNKNOWN",
+          "stepFreeAccess": "UNKNOWN",
+          "escalatorFreeAccess": "UNKNOWN",
+          "liftFreeAccess": "UNKNOWN",
+          "audibleSignalsAvailable": "UNKNOWN"
+        }
+      }
+    },
+    "topographicPlaceRef": {
+      "ref": "KVE:TopographicPlace:3401",
+      "created": "2023-10-09T23:51:06.187+02:00",
+      "version": "2"
+    },
+    "transportMode": "BUS",
+    "tariffZones": {
+      "modificationSet": "ALL",
+      "tariffZoneRef": [
+        {
+          "ref": "INN:FareZone:142",
+          "version": "14"
+        },
+        {
+          "ref": "INN:TariffZone:486",
+          "version": "9"
+        }
+      ]
+    },
+    "stopPlaceType": "ONSTREET_BUS",
+    "weighting": "INTERCHANGE_ALLOWED",
+    "quays": {
+      "modificationSet": "ALL",
+      "quayRefOrQuay": [
+        {
+          "id": "NSR:Quay:101808",
+          "changed": "2018-10-25T10:01:37.651+02:00",
+          "modification": "NEW",
+          "version": "1",
+          "status_BasicModificationDetailsGroup": "ACTIVE",
+          "publication": "PUBLIC",
+          "keyList": {
+            "keyValue": [
+              {
+                "key": "imported-id",
+                "value": "HED:Quay:0402398402,OPP:Quay:0402398402"
+              }
+            ]
+          },
+          "description": {
+            "value": "mot Berg",
+            "lang": "nor"
+          },
+          "privateCode": {
+            "value": "2"
+          },
+          "centroid": {
+            "modification": "NEW",
+            "status_BasicModificationDetailsGroup": "ACTIVE",
+            "publication": "PUBLIC",
+            "location": {
+              "longitude": 12.356918,
+              "latitude": 60.285249
+            }
+          }
+        },
+        {
+          "id": "NSR:Quay:17067",
+          "changed": "2018-10-25T10:01:37.651+02:00",
+          "modification": "NEW",
+          "version": "2",
+          "status_BasicModificationDetailsGroup": "ACTIVE",
+          "publication": "PUBLIC",
+          "keyList": {
+            "keyValue": [
+              {
+                "key": "hpltype",
+                "value": "9766"
+              },
+              {
+                "key": "imported-id",
+                "value": "HED:Quay:0402398401,OPP:Quay:0402398401"
+              },
+              {
+                "key": "retn_nett",
+                "value": "9771"
+              }
+            ]
+          },
+          "description": {
+            "value": "mot Øyermoen",
+            "lang": "nor"
+          },
+          "privateCode": {
+            "value": "1"
+          },
+          "centroid": {
+            "modification": "NEW",
+            "status_BasicModificationDetailsGroup": "ACTIVE",
+            "publication": "PUBLIC",
+            "location": {
+              "longitude": 12.35761,
+              "latitude": 60.285114
+            }
+          },
+          "placeEquipments": {
+            "id": "NSR:PlaceEquipment:48071",
+            "modificationSet": "ALL",
+            "installedEquipmentRefOrInstalledEquipment": [
+              {
+                "type": "GeneralSign",
+                "value": {
+                  "id": "74993",
+                  "modification": "NEW",
+                  "version": "1",
+                  "status_BasicModificationDetailsGroup": "ACTIVE",
+                  "publication": "PUBLIC",
+                  "privateCode": {
+                    "value": "512"
+                  },
+                  "signContentType": "TRANSPORT_MODE"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

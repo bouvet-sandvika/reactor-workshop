@@ -1,0 +1,277 @@
+  {
+    "id": "NSR:StopPlace:1",
+    "created": "2017-06-19T19:12:27.003+02:00",
+    "changed": "2021-04-22T17:52:13.302+02:00",
+    "modification": "NEW",
+    "version": "5",
+    "status_BasicModificationDetailsGroup": "ACTIVE",
+    "publication": "PUBLIC",
+    "keyList": {
+      "keyValue": [
+        {
+          "key": "jbvCode",
+          "value": "DRD"
+        },
+        {
+          "key": "uicCode",
+          "value": "7602103"
+        },
+        {
+          "key": "grailsId",
+          "value": "105"
+        },
+        {
+          "key": "iffCode",
+          "value": "7602103"
+        },
+        {
+          "key": "lisaId",
+          "value": "2103"
+        },
+        {
+          "key": "imported-id",
+          "value": "NSB:StopPlace:007602103,RUT:StopPlace:8179100,FLT:StopPlace:7602103,NSB:StopPlace:07602103"
+        },
+        {
+          "key": "tpsiId",
+          "value": "007602103"
+        },
+        {
+          "key": "IS_PARENT_STOP_PLACE",
+          "value": "false"
+        }
+      ]
+    },
+    "name": {
+      "value": "Drangedal stasjon",
+      "lang": "nor"
+    },
+    "description": {
+      "lang": "nor"
+    },
+    "privateCode": {},
+    "centroid": {
+      "modification": "NEW",
+      "status_BasicModificationDetailsGroup": "ACTIVE",
+      "publication": "PUBLIC",
+      "location": {
+        "longitude": 9.064246,
+        "latitude": 59.096262
+      }
+    },
+    "accessibilityAssessment": {
+      "id": "NSR:AccessibilityAssessment:3",
+      "modification": "NEW",
+      "version": "5",
+      "status_BasicModificationDetailsGroup": "ACTIVE",
+      "publication": "PUBLIC",
+      "mobilityImpairedAccess": "UNKNOWN",
+      "limitations": {
+        "accessibilityLimitation": {
+          "id": "139892",
+          "modification": "NEW",
+          "version": "4",
+          "status_BasicModificationDetailsGroup": "ACTIVE",
+          "publication": "PUBLIC",
+          "wheelchairAccess": "TRUE",
+          "stepFreeAccess": "TRUE",
+          "escalatorFreeAccess": "UNKNOWN",
+          "liftFreeAccess": "UNKNOWN",
+          "audibleSignalsAvailable": "UNKNOWN"
+        }
+      }
+    },
+    "topographicPlaceRef": {
+      "ref": "KVE:TopographicPlace:3815",
+      "created": "2023-10-09T23:51:04.889+02:00",
+      "version": "2"
+    },
+    "parentSiteRef": {
+      "ref": "NSR:StopPlace:58878",
+      "version": "3"
+    },
+    "placeEquipments": {
+      "id": "NSR:PlaceEquipment:58506",
+      "modificationSet": "ALL",
+      "installedEquipmentRefOrInstalledEquipment": [
+        {
+          "type": "SanitaryEquipment",
+          "value": {
+            "id": "99377",
+            "modification": "NEW",
+            "version": "1",
+            "status_BasicModificationDetailsGroup": "ACTIVE",
+            "publication": "PUBLIC",
+            "gender": "BOTH"
+          }
+        },
+        {
+          "type": "WaitingRoomEquipment",
+          "value": {
+            "id": "99378",
+            "modification": "NEW",
+            "version": "1",
+            "status_BasicModificationDetailsGroup": "ACTIVE",
+            "publication": "PUBLIC"
+          }
+        }
+      ]
+    },
+    "transportMode": "RAIL",
+    "tariffZones": {
+      "modificationSet": "ALL",
+      "tariffZoneRef": [
+        {
+          "ref": "VOT:TariffZone:806",
+          "version": "9"
+        },
+        {
+          "ref": "TEL:TariffZone:869",
+          "version": "1"
+        },
+        {
+          "ref": "VOT:FareZone:11",
+          "version": "17"
+        }
+      ]
+    },
+    "stopPlaceType": "RAIL_STATION",
+    "weighting": "INTERCHANGE_ALLOWED",
+    "quays": {
+      "modificationSet": "ALL",
+      "quayRefOrQuay": [
+        {
+          "id": "NSR:Quay:8",
+          "changed": "2020-04-15T15:59:37.53+02:00",
+          "modification": "NEW",
+          "version": "5",
+          "status_BasicModificationDetailsGroup": "ACTIVE",
+          "publication": "PUBLIC",
+          "keyList": {
+            "keyValue": [
+              {
+                "key": "grails-platformId",
+                "value": "6684"
+              },
+              {
+                "key": "uicCode",
+                "value": "7602103"
+              },
+              {
+                "key": "imported-id",
+                "value": "NSB:Quay:0076021032"
+              },
+              {
+                "key": "tpsiId",
+                "value": "760210302"
+              }
+            ]
+          },
+          "description": {
+            "lang": "nor"
+          },
+          "privateCode": {
+            "value": "2"
+          },
+          "centroid": {
+            "modification": "NEW",
+            "status_BasicModificationDetailsGroup": "ACTIVE",
+            "publication": "PUBLIC",
+            "location": {
+              "longitude": 9.064469,
+              "latitude": 59.096179
+            }
+          },
+          "accessibilityAssessment": {
+            "id": "NSR:AccessibilityAssessment:62388",
+            "modification": "NEW",
+            "version": "2",
+            "status_BasicModificationDetailsGroup": "ACTIVE",
+            "publication": "PUBLIC",
+            "mobilityImpairedAccess": "UNKNOWN",
+            "limitations": {
+              "accessibilityLimitation": {
+                "id": "139893",
+                "modification": "NEW",
+                "version": "2",
+                "status_BasicModificationDetailsGroup": "ACTIVE",
+                "publication": "PUBLIC",
+                "wheelchairAccess": "TRUE",
+                "stepFreeAccess": "TRUE",
+                "escalatorFreeAccess": "UNKNOWN",
+                "liftFreeAccess": "UNKNOWN",
+                "audibleSignalsAvailable": "UNKNOWN"
+              }
+            }
+          },
+          "publicCode": "2"
+        },
+        {
+          "id": "NSR:Quay:6",
+          "changed": "2020-04-15T15:59:37.53+02:00",
+          "modification": "NEW",
+          "version": "5",
+          "status_BasicModificationDetailsGroup": "ACTIVE",
+          "publication": "PUBLIC",
+          "keyList": {
+            "keyValue": [
+              {
+                "key": "grails-platformId",
+                "value": "6683"
+              },
+              {
+                "key": "uicCode",
+                "value": "7602103"
+              },
+              {
+                "key": "imported-id",
+                "value": "NSB:Quay:0076021031,NSB:Quay:007602103,NSB:Quay:076021031,FLT:Quay:7602103"
+              },
+              {
+                "key": "tpsiId",
+                "value": "760210301"
+              }
+            ]
+          },
+          "description": {
+            "lang": "nor"
+          },
+          "privateCode": {
+            "value": "1"
+          },
+          "centroid": {
+            "modification": "NEW",
+            "status_BasicModificationDetailsGroup": "ACTIVE",
+            "publication": "PUBLIC",
+            "location": {
+              "longitude": 9.064381,
+              "latitude": 59.09621
+            }
+          },
+          "accessibilityAssessment": {
+            "id": "NSR:AccessibilityAssessment:62389",
+            "modification": "NEW",
+            "version": "2",
+            "status_BasicModificationDetailsGroup": "ACTIVE",
+            "publication": "PUBLIC",
+            "mobilityImpairedAccess": "UNKNOWN",
+            "limitations": {
+              "accessibilityLimitation": {
+                "id": "139894",
+                "modification": "NEW",
+                "version": "2",
+                "status_BasicModificationDetailsGroup": "ACTIVE",
+                "publication": "PUBLIC",
+                "wheelchairAccess": "TRUE",
+                "stepFreeAccess": "TRUE",
+                "escalatorFreeAccess": "UNKNOWN",
+                "liftFreeAccess": "UNKNOWN",
+                "audibleSignalsAvailable": "UNKNOWN"
+              }
+            }
+          },
+          "publicCode": "1"
+        }
+      ]
+    }
+  }

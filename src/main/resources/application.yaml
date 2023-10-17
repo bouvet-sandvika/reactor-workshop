@@ -1,0 +1,33 @@
+---
+environment: "${SPRING_PROFILES_ACTIVE:local}"
+
+server:
+  port: ${PORT:8080}
+
+spring:
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE:local}
+  application:
+    name: "RoutingApplication-${environment}"
+  main:
+    banner-mode: "off"
+
+management:
+  server.port: ${MANAGEMENT_PORT:8081}
+  endpoint:
+    metrics:
+      enabled: true
+    prometheus:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  metrics:
+    prometheus:
+      enabled: true
+
+data-dog:
+  enabled: true
+
+message: "Hello from ${environment} environment and the current time is"
